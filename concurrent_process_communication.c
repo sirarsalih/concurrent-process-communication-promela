@@ -6,12 +6,12 @@ mtype = {a, b};
 proctype A()
 {
 	vw!a; 
-	xy!b;			
+	xy?b;
 }
 
 proctype B()
 {
-	xy?b;
+	xy!b;
 	vw?a;
 }
 
